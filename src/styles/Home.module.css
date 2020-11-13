@@ -15,6 +15,7 @@
 
   .counts {
     flex: 1;
+    padding-left: 14px;
   }
 
   .input {
