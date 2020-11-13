@@ -6,6 +6,7 @@ import {
 import { useState } from "react";
 import styles from "./CountriesTable.module.css";
 
+
 const orderBy = (countries, value, direction) => {
   if (direction === "asc") {
     return [...countries].sort((a, b) => (a[value] > b[value] ? 1 : -1));
@@ -106,15 +107,13 @@ const CountriesTable = ({ countries }) => {
       {orderedCountries.map((country) => (
         <Link href={`/country/${country.alpha3Code}`} key={country.name}>
           <div className={styles.row}>
+
             <div className={styles.flag}>
               <img src={country.flag} alt={country.name} />
             </div>
             <div className={styles.name}>{country.name}</div>
-
             <div className={styles.population}>{country.population}</div>
-
             <div className={styles.area}>{country.area || 0}</div>
-
             <div className={styles.gini}>{country.gini || 0} %</div>
           </div>
         </Link>

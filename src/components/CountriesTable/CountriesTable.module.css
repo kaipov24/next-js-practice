@@ -45,6 +45,7 @@
 .row {
   display: flex;
   padding: 20px;
+  align-items: center;
 
   text-align: center;
 
@@ -88,6 +89,8 @@
 .flag img {
   border-radius: 2px;
   width: 100%;
+  align-items: center;
+  display: flex;
 }
 
 @media screen and (max-width: 720px) {

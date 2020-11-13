@@ -5,6 +5,7 @@ import Layout from "../components/Layout/Layout";
 import SearchInput from "../components/SearchInput/SearchInput";
 import styles from "../styles/Home.module.css";
 
+
 export default function Home({ countries }) {
   const [keyword, setKeyword] = useState("");
 
