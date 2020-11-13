@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a world-rank project on [Next.js](https://next-js-practice-45i8kinjw.vercel.app/) .
 
 ## Getting Started
 
